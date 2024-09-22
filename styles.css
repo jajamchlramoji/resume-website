@@ -1,0 +1,97 @@
+/* General body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;  /* Light grey background */
+    color: #333;  /* Dark text color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Main container for the resume */
+.container {
+    width: 80%;  /* Page width */
+    margin: 0 auto;  /* Center alignment */
+    padding: 20px;
+    background-color: #ffffff;  /* White background for contrast */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Soft shadow for professional look */
+    border-radius: 8px;
+}
+
+/* Header section: Name and contact info */
+header {
+    text-align: center;  /* Center the text */
+    background-color: #4a4a4a;  /* Dark grey header */
+    color: white;
+    padding: 20px;
+    border-radius: 8px 8px 0 0;  /* Rounded corners */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;  /* Large font for name */
+}
+
+header p {
+    margin: 5px 0;
+    font-size: 1.1em;  /* Contact info font size */
+}
+
+header a {
+    color: #ffcc00;  /* Golden-yellow links */
+    text-decoration: none;
+}
+
+/* Education section */
+.education {
+    background-color: #f2f2f2;  /* Light grey background */
+    padding: 15px;
+    border-left: 5px solid #4a4a4a;  /* Dark grey left border */
+    margin-bottom: 20px;
+}
+
+/* Work Experience section */
+.work-experience {
+    background-color: #f7f7f7;  /* Slightly darker grey for differentiation */
+    padding: 15px;
+    border-left: 5px solid #4a4a4a;
+    margin-bottom: 20px;
+}
+
+/* Projects section */
+.projects {
+    background-color: #f9f9f9;  /* Very light grey for consistency */
+    padding: 15px;
+    border-left: 5px solid #4a4a4a;
+    margin-bottom: 20px;
+}
+
+/* Skills section */
+.skills {
+    background-color: #f2f2f2;  /* Matching light grey as education */
+    padding: 15px;
+    border-left: 5px solid #4a4a4a;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;  /* Small copyright text */
+    color: #888;  /* Light grey text */
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    section h2 {
+        font-size: 1.5em;
+    }
+}
